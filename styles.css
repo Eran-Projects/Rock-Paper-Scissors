@@ -1,0 +1,76 @@
+*{
+    font-family: 'Aoboshi One', serif;
+}
+
+body{
+    background-color: #0e2433;
+}
+
+.text{
+margin-left: 675px;
+font-size: 4em;
+}
+
+.hands-pic{
+margin-top: 400px;
+margin-left: 455px;
+}
+
+.rock-pic{
+    margin:20px;
+    height: 250px;
+    transition: 0.5s;
+}
+
+.paper-pic{
+    margin:20px;
+    height: 250px;
+    transition: 0.5s;
+}
+
+.scissors-pic{
+    margin:20px;
+    height: 250px;
+    transition: 0.5s;
+}
+
+.hands-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.rock-text{
+    margin-left: 540px;
+    margin-top: -60px;
+    font-size: 3em;
+}
+
+.paper-text{
+        margin-left: 30px;
+        margin-top: -60px;
+        font-size: 3em;
+}
+
+.scissors-text{
+        margin-right: 545px;
+        margin-top: -60px;
+        font-size: 3em;
+}
+
+.rock-pic:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+}
+
+.paper-pic:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+}
+
+.scissors-pic:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+}
+
